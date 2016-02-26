@@ -62,8 +62,6 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onResponse(String response){
 
-                                //textsearch.setText(response);
-
                                 Gson gson = new Gson();
 
                                 classYoutube = gson.fromJson(response, ClassYoutube.class);

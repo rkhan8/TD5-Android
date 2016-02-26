@@ -32,7 +32,6 @@ public class YoutubeAdapter extends ArrayAdapter<Items> {
         public TextView Title;
         public ImageView image;
         public TextView Description;
-        //public TextView commercialName;
     }
 
 
@@ -82,7 +81,7 @@ public class YoutubeAdapter extends ArrayAdapter<Items> {
                 Intent intent = new Intent(v.getContext().getApplicationContext(), YouTubePlayerActivity.class);
                 intent.putExtra(videoId, item.getId().getVideoId());
                 intent.putExtra(title, item.getSnippet().getTitle());
-                intent.putExtra(author, item.getSnippet().getChannelId());
+                intent.putExtra(author, item.getSnippet().getChTitle());
                 intent.putExtra(description, item.getSnippet().getDescription());
                 intent.putExtra(publication, item.getSnippet().getPublishedAt());
 

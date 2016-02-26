@@ -44,11 +44,11 @@ public class Snippet
         return thumbnails;
     }
 
-    private String ChannelTitle;
+    private String ChTitle;
 
-    public String getChannelTitle()
+    public String getChTitle()
     {
-        return channelId;
+        return ChTitle;
     }
 
     private String LiveBroadcast;
