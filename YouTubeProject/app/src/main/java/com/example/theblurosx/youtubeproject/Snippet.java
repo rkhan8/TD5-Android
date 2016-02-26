@@ -44,18 +44,18 @@ public class Snippet
         return thumbnails;
     }
 
-    private String ChTitle;
+    private String channelTitle;
 
     public String getChTitle()
     {
-        return ChTitle;
+        return channelTitle;
     }
 
-    private String LiveBroadcast;
+    private String liveBroadcastContent;
 
     public String getLiveBroadcast()
     {
-        return LiveBroadcast;
+        return liveBroadcastContent;
     }
 
 }
